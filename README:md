@@ -1,0 +1,4 @@
+# Test repo for me to play with azure pipelines and PR
+
+pipenv lock -r > requirements.txt
+pip3 freeze > requirements.txt
