@@ -48,6 +48,3 @@ steps:
     git branch -v
     git push
   displayName: 'Publish GitHub Pages'
-  condition: |
-    and(not(eq(variables['Build.Reason'], 'PullRequest')),
-        eq(variables['Build.SourceBranch'], 'refs/heads/master'))
